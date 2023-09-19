@@ -229,24 +229,24 @@
 
 // 15 masala a= 1 b = 3 c = 12  21 11 34     21 2 56 .. 12 123 2  { 3 ta son kattasi
 
-const a = +prompt("Birinchi sonni kiriting: ");
-const b = +prompt("Ikkinchi sonni kiriting: ");
-const c = +prompt("Uchinchi sonni kiriting: ");
+// const a = +prompt("Birinchi sonni kiriting: ");
+// const b = +prompt("Ikkinchi sonni kiriting: ");
+// const c = +prompt("Uchinchi sonni kiriting: ");
 
-if (a > b && a > c) {
-  alert(`Katta son ${a}`);
-} else if (b > a && b > c) {
-  alert(`Katta son ${b}`);
-} else if (c > b && c > a) {
-  alert(`Katta son ${c}`);
-}
+// if (a > b && a > c) {
+//   alert(`Katta son ${a}`);
+// } else if (b > a && b > c) {
+//   alert(`Katta son ${b}`);
+// } else if (c > b && c > a) {
+//   alert(`Katta son ${c}`);
+// }
 
-if (a > b && a > c && b > c) {
-  alert(`O'rtacha son ${b}`);
-} else if (b > a && b > c && a > c) {
-  alert(`O'rtacha son ${a}`);
-} else if (b > a && b > c && c > a) {
-  alert(`O'rtacha son ${c}`);
-} else if (b > a && c > a && b > a) {
-  alert(`O'rtacha son ${b}`);
-}
+// if (a > b && a > c && b > c) {
+//   alert(`O'rtacha son ${b}`);
+// } else if (b > a && b > c && a > c) {
+//   alert(`O'rtacha son ${a}`);
+// } else if (b > a && b > c && c > a) {
+//   alert(`O'rtacha son ${c}`);
+// } else if (b > a && c > a && b > a) {
+//   alert(`O'rtacha son ${b}`);
+// }
